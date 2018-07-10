@@ -1266,6 +1266,10 @@ input, select, textarea {
 				display: none;
 			}
 
+		#header img {
+			height: 35vh;
+		}
+
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
