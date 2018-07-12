@@ -8,7 +8,7 @@ module.exports = (state, dispatch) => html`
       <div id="main">
       <article>
       ${back(dispatch)}
-      <h2 class="major">Hours</h2>
+      <h1 class="major">Hours</h1>
       <table>
         <tbody>
         <tr>

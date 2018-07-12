@@ -8,7 +8,7 @@ module.exports = (state, dispatch) => html`
       <div id="main">
       <article>
       ${back(dispatch)}
-      <h2 class="major">About</h2>
+      <h1 class="major">About</h1>
       <p>Hello! The Camel Grill is a company set up by Abdalla Tammam to share his skills as a chef.
         Originally we opened as a food carvan but now we have our own kitchen on Dixon Street!
         We would love to take the chance to welcome you into our kitchen.

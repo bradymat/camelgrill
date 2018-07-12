@@ -8,7 +8,7 @@ module.exports = (state, dispatch) => html`
       <div id="main">
       <article>
       ${back(dispatch)}
-      <h2 class="major">Location</h2>
+      <h1 class="major">Location</h1>
       <p>We are located at <a href="https://www.google.co.nz/maps/place/Camel+Grill/@-41.2920375,174.7750122,17z/data=!3m1!4b1!4m5!3m4!1s0x6d38afd7471559d5:0xbb9b6a62c1b06ee4!8m2!3d-41.2920375!4d174.7772009" target="_">37b Dixon Street</a> in the heart of Wellington City</p>
       <span class="image main"><img src="https://user-images.githubusercontent.com/20106637/42534102-ecbf717a-84df-11e8-8d67-1307a4f55be5.jpg" alt="" /></span>
       <div class="map-responsive">

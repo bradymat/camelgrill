@@ -1,8 +1,8 @@
 import html from 'yo-yo'
 
-module.exports = ({ title, menu }, dispatch) => {
+module.exports = ({ title, navigation }, dispatch) => {
   return html`
-  ${nav(menu)}
+  ${nav(navigation)}
 `
   function nav (menuItems) {
     return html`
