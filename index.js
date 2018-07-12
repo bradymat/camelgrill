@@ -10,22 +10,13 @@ import About from './components/about'
 import Location from './components/location'
 import Hours from './components/hours'
 import Contact from './components/contact'
+import CreateState from './initState'
 
 const initView = document.createElement('div')
 document.querySelector('main').appendChild(initView)
 
-const initState = {
-  title: 'Camel Grill',
-  route: '/',
-  routeHistory: [],
-  menu: [
-    {route: '/menu', label: 'Menu'},
-    {route: '/about', label: 'About'},
-    {route: '/location', label: 'Location'},
-    {route: '/hours', label: 'Hours'},
-    {route: '/contact', label: 'Contact'}
-  ]
-}
+const initState = CreateState()
+
 
 const { getState, dispatch, subscribe } = createStore(reducer, initState)
 
