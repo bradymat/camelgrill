@@ -2,6 +2,9 @@ export default () => {
   return {
 
     title: 'Camel Grill',
+    logo: 'https://user-images.githubusercontent.com/20106637/42647972-96591ba8-8659-11e8-94ff-db3df60e1e33.png',
+    logo2: 'https://user-images.githubusercontent.com/20106637/42647958-8cb00ee0-8659-11e8-9d88-93fa5fa7e30b.png',
+    logo3: 'https://user-images.githubusercontent.com/20106637/42647819-254994ba-8659-11e8-8e13-1dea7abea36b.png',
     route: '/',
     routeHistory: [],
     navigation: [
