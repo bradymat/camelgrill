@@ -13,7 +13,7 @@ export default () => {
     ],
     foodMenu: [
       {name: 'Wraps', varriants: [
-        {name: 'Falafel (vegan)', price: 10, picture: '', description: 'Our own falafel blended from broad beans, chickpeas, corriander, parsley, garlic, onions, toasted seasame, cumin and caraway seeds'},
+        {name: 'Falafel (vegan)', price: 10, picture: '', description: 'Our own falafel is blended from broad beans, chickpeas, corriander, parsley, garlic, onions, toasted seasame, cumin and caraway seeds'},
         {name: 'Halloumi', price: 10, picture: '', description: 'Grilled sweet potatoes, eggplant, halloumi cheese, hummus, paprika, aioli, balsamic reduction'},
         {name: 'Chicken', price: 10, picture: '', description: 'Marinated chicken with house made spices served with seasonal salad, hummus'},
         {name: 'Lamb', price: 10, picture: '', description: 'Marinated lamb with house made spices served with seasonal salad, hummus'},
@@ -36,9 +36,6 @@ export default () => {
         {name: 'Chicken', price: 15, picture: '', description: 'Marinated chicken with house made spices served with seasonal salad, hummus and chips or rice'},
         {name: 'Prawn', price: 15, picture: '', description: 'Prawns with house made spices served with seasonal salad, hummus and chips or rice'}
       ]},
-      // {name: 'Burger', varriants: [
-      //   {name: 'Calander', price: '$', picture: '', description: 'blah'}
-      // ]},
       {name: 'Sides', varriants: [
         {name: 'Spicy Chips', price: 5, picture: '', description: 'Chips with spicy aioli'},
         {name: 'Salad', price: 4, picture: '', description: 'Seasonal salad'}
