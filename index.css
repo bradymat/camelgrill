@@ -1546,7 +1546,7 @@ input, select, textarea {
 			animation: fadein 0.5s;
     }
 		#header img {
-			animation: enlarge 0.5s;
+			animation: enlarge 0.2s;
 		}
     @keyframes fadein {
         from { opacity: 0; }

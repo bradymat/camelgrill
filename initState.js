@@ -2,6 +2,9 @@ export default () => {
   return {
 
     title: 'Camel Grill',
+    logo: 'https://user-images.githubusercontent.com/20106637/42647972-96591ba8-8659-11e8-94ff-db3df60e1e33.png',
+    logo2: 'https://user-images.githubusercontent.com/20106637/42647958-8cb00ee0-8659-11e8-9d88-93fa5fa7e30b.png',
+    logo3: 'https://user-images.githubusercontent.com/20106637/42647819-254994ba-8659-11e8-8e13-1dea7abea36b.png',
     route: '/',
     routeHistory: [],
     navigation: [
@@ -13,7 +16,7 @@ export default () => {
     ],
     foodMenu: [
       {name: 'Wraps', varriants: [
-        {name: 'Falafel (vegan)', price: 10, picture: '', description: 'Our own falafel blended from broad beans, chickpeas, corriander, parsley, garlic, onions, toasted seasame, cumin and caraway seeds'},
+        {name: 'Falafel (vegan)', price: 10, picture: '', description: 'Our own falafel is blended from broad beans, chickpeas, corriander, parsley, garlic, onions, toasted seasame, cumin and caraway seeds'},
         {name: 'Halloumi', price: 10, picture: '', description: 'Grilled sweet potatoes, eggplant, halloumi cheese, hummus, paprika, aioli, balsamic reduction'},
         {name: 'Chicken', price: 10, picture: '', description: 'Marinated chicken with house made spices served with seasonal salad, hummus'},
         {name: 'Lamb', price: 10, picture: '', description: 'Marinated lamb with house made spices served with seasonal salad, hummus'},
@@ -36,9 +39,6 @@ export default () => {
         {name: 'Chicken', price: 15, picture: '', description: 'Marinated chicken with house made spices served with seasonal salad, hummus and chips or rice'},
         {name: 'Prawn', price: 15, picture: '', description: 'Prawns with house made spices served with seasonal salad, hummus and chips or rice'}
       ]},
-      // {name: 'Burger', varriants: [
-      //   {name: 'Calander', price: '$', picture: '', description: 'blah'}
-      // ]},
       {name: 'Sides', varriants: [
         {name: 'Spicy Chips', price: 5, picture: '', description: 'Chips with spicy aioli'},
         {name: 'Salad', price: 4, picture: '', description: 'Seasonal salad'}
