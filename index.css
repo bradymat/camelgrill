@@ -1534,8 +1534,12 @@ input, select, textarea {
 
     #main article {
 			animation: slidein 0.5s;
+			min-height: 850px;
     }
 		#likeButton iframe {
+			animation: fadein 3s;
+		}
+		#map iframe {
 			animation: fadein 3s;
 		}
     #wrapper header {
