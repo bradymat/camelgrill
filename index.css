@@ -1326,6 +1326,7 @@ input, select, textarea {
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
+			cursor: pointer;
 		}
 
 			#header nav ul li {
