@@ -1,5 +1,5 @@
 {
-  "name": "quickstart",
+  "name": "camelgrill",
   "version": "1.0.0",
   "description": "yoyo redux",
   "main": "index.js",
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bradymat/quickstart"
+    "url": "https://github.com/bradymat/camelgrill"
   },
   "author": "bradymat",
   "license": "Motosoto",
   "bugs": {
-    "url": "https://github.com/bradymat/quickstart/issues"
+    "url": "https://github.com/bradymat/camelgrill/issues"
   },
-  "homepage": "https://github.com/bradymat/quickstart",
+  "homepage": "http://camelgrill.co.nz",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.1.0",
     "babel-plugin-transform-object-rest-spread": "^6.19.0",
